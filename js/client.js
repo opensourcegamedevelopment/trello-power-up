@@ -131,7 +131,7 @@ var getBadges = function(t){
       title: 'URL Detail Badge', // for detail badges only
       text: 'URL',
       icon: GRAY_ICON, // for card front badges only
-      url: 'https://trello.com/home',
+      url: 'https://github.com/opensourcegamedevelopment/ProjectMMW-UE',
       target: 'Trello Landing Page' // optional target for above url
     }];
   });
