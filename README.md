@@ -1,5 +1,7 @@
 # Trello Power-Up Template
 
+Connector url:https://opensourcegamedevelopment.github.io/trello-power-up/
+
 Hey there 👋
 
 This is a full featured sample Trello Power-Up. What does that mean for you? We hope it's a great starting point for you to fork, and make your own great Power-Up that makes Trello work even better for you.
