@@ -128,11 +128,11 @@ var getBadges = function(t){
       // or for simpler use cases you can also provide a url
       // when the user clicks on the card detail badge they will
       // go to a new tab at that url
-      title: 'URL Detail Badge', // for detail badges only
-      text: 'URL',
+      title: 'GitHUB Detail Badge', // for detail badges only
+      text: 'GitHUB',
       icon: GRAY_ICON, // for card front badges only
       url: 'https://github.com/opensourcegamedevelopment/ProjectMMW-UE',
-      target: 'Trello Landing Page' // optional target for above url
+      target: 'GitHUB Landing Page' // optional target for above url
     }];
   });
 };
