@@ -175,7 +175,7 @@ var boardButtonCallback = function(t){
             }],
           })
         }
-      },
+      }/* ,
       {
         text: 'Open Board Bar',
         callback: function(t){
@@ -187,7 +187,7 @@ var boardButtonCallback = function(t){
             return t.closePopup();
           });
         }
-      }
+      } */
     ]
   });
 };
@@ -316,13 +316,19 @@ TrelloPowerUp.initialize({
       // we can either provide a button that has a callback function
       // that callback function should probably open a popup, overlay, or boardBar
       icon: WHITE_ICON,
-      text: 'Popup',
+      text: 'Project',
       callback: boardButtonCallback
     }, {
       // or we can also have a button that is just a simple url
       // clicking it will open a new tab at the provided url
       icon: WHITE_ICON,
-      text: 'gitHub',
+      text: 'Discord Channel',
+      url: 'https://discord.gg/A2tnTSH',
+    }, {
+      // or we can also have a button that is just a simple url
+      // clicking it will open a new tab at the provided url
+      icon: WHITE_ICON,
+      text: 'GitHub',
       url: 'https://github.com/opensourcegamedevelopment/ProjectMMW-UE',
       target: 'gitHub Repo' // optional target for above url
     }];
