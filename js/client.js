@@ -128,11 +128,11 @@ var getBadges = function(t){
       // or for simpler use cases you can also provide a url
       // when the user clicks on the card detail badge they will
       // go to a new tab at that url
-      title: 'GitHUB Detail Badge', // for detail badges only
-      text: 'GitHUB',
+      title: 'URL Detail Badge', // for detail badges only
+      text: 'URL',
       icon: GRAY_ICON, // for card front badges only
       url: 'https://github.com/opensourcegamedevelopment/ProjectMMW-UE',
-      target: 'GitHUB Landing Page' // optional target for above url
+      target: 'Trello Landing Page' // optional target for above url
     }];
   });
 };
@@ -322,9 +322,9 @@ TrelloPowerUp.initialize({
       // or we can also have a button that is just a simple url
       // clicking it will open a new tab at the provided url
       icon: WHITE_ICON,
-      text: 'URL',
-      url: 'https://trello.com/inspiration',
-      target: 'Inspiring Boards' // optional target for above url
+      text: 'gitHub',
+      url: 'https://github.com/opensourcegamedevelopment/ProjectMMW-UE',
+      target: 'gitHub Repo' // optional target for above url
     }];
   },
   'card-badges': function(t, options){
